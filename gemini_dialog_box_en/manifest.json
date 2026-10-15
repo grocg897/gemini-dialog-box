@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Dialog Box",
+  "version": "1.0.0",
+  "description": "Quickly navigate, jump, and switch between your sent prompt dialogue boxes in Google Gemini chats.",
+  "permissions": [],
+  "host_permissions": [
+    "https://gemini.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*"
+      ],
+      "js": [
+        "gemini_dialog_box.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
