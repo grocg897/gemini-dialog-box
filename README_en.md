@@ -1,6 +1,6 @@
 # Gemini Dialog Box
 
-> 🌐 English | [中文说明文档](https://www.google.com/search?q=README.md)
+> 🌐 English | [中文说明文档](./README.md)
 
 A lightweight user dialogue box built with AI, designed for Google Gemini Web. Have a good day!
 
@@ -22,15 +22,15 @@ A lightweight user dialogue box built with AI, designed for Google Gemini Web. H
    - **Chrome**: Navigate to `chrome://extensions/`
    - **Microsoft Edge**: Navigate to `edge://extensions/`
 3. Toggle on **Developer mode** (top-right on Chrome, bottom-left on Edge).
-4. Click **Load unpacked** and select the English version folder.
-5. Visit [Google Gemini](https://www.google.com/search?q=https%3A%2F%2Fgemini.google.com%2F) and refresh the page!
+4. Click **Load unpacked** and select the `gemini_dialog_box_en` folder.
+5. Visit [Google Gemini](https://gemini.google.com/) and refresh the page!
 
 ### Method 2: Tampermonkey Userscript
 
-1. Install the [Tampermonkey](https://www.google.com/search?q=https%3A%2F%2Fwww.tampermonkey.net%2F) extension from the Chrome Web Store or Edge Add-ons.
+1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension from the Chrome Web Store or Edge Add-ons.
 2. Click the Tampermonkey icon -> **Create a new script**.
-3. Copy and paste the content of the English script and press `Ctrl + S` to save.
-4. Refresh [Google Gemini](https://www.google.com/search?q=https%3A%2F%2Fgemini.google.com%2F).
+3. Copy and paste the content of `gemini_dialog_box_en/gemini_dialog_box.js` into the editor and press `Ctrl + S` to save.
+4. Refresh [Google Gemini](https://gemini.google.com/).
 
 ## Project Structure
 
@@ -56,4 +56,4 @@ gemini-dialog-box/
 
 ## License
 
-[MIT](https://www.google.com/search?q=LICENSE)
+[MIT](./LICENSE)
